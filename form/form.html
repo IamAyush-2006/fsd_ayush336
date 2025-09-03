@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    <div class="form-container">
+        <h2>registrantion form</h2>
+        <form>
+            <!-- name -->
+             <lable for="name">full name</lable>
+             <input type="text" id="name" name="name" placeholder="enter your name" required>
+
+             <!-- email -->
+            <lable for="email">full email</lable>
+             <input type="email" id="email" name="email" placeholder="enter your email" required>
+
+             <!-- passward -->
+            <lable for="passward">passward</lable>
+             <input type="passward" id="passward" name="passward" placeholder="enter your passward" required>
+
+             <!-- gender (radio button) -->
+              <lable>gender</lable>
+              <div class="rsdio-group"> 
+             <lable><input type="radio" name="gender" value="male">male</lable>
+             <lable><input type="radio" name="gender" value="female">female</lable>
+             <lable><input type="radio" name="gender" value="other">other</lable>
+
+             <!-- skill -->
+              <lable>skill</lable>
+              <div class="checkbox-group">
+            <lable><input type="checkbox" name="skill" value="css">css</lable>
+             <lable><input type="checkbox" name="skill" value="html">html</lable>
+             <lable><input type="checkbox" name="skill" value="java">java</lable>
+             </div>
+             
+
+             <!-- country(dropdown) -->
+            <leblel for ="country">country</leblel>
+            <select id="country" name="country">
+                <option value="">----select----</option>
+                <option value="india">india</option>
+                <option value="usa">usa</option>
+                <option value="uk">uk</option>
+            </select>
+
+
+            <!-- massage -->
+             <label for="message">message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+            
+            <!--  button for registration -->
+            <button type="register">register</button>
+
+            
+
+
+              </div>
+
+
+
+
+        </form>
+
+
+
+
+    </div>
+</body>
+</html>
